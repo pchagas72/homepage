@@ -39,3 +39,14 @@ function abrirSite(site){
   
         showTime();
      //Relógio -- fim
+
+function pesquisa(pesquisa){
+    let link = "https://duckduckgo.com/?q=" + pesquisa + "&atb=v299-1&ia=web";
+  console.log(link);
+  window.open(link);
+}
+
+function btnSearch(){
+	let oqPesquisar = document.getElementById("textinhoDaPesquisa").value;
+	pesquisa(oqPesquisar);
+}
