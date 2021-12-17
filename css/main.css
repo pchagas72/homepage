@@ -1,0 +1,192 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+/* RELÓGIO */
+        #clock {
+        	position: absolute;
+			top: 15%;
+            font-size: 69px;
+            text-align: center;
+            border-radius: 20px;
+            font-family: fantasy;
+            color: #99B898;
+        }
+/* RELÓGIO */
+
+
+button:hover{
+	cursor: pointer;
+}
+
+body{
+	margin: 0;
+	border: none;
+	padding: 0;
+	background:  #2A363B;
+}
+
+.esquerdaDaTela{
+	width: 50%;
+	position: absolute;
+	left: 0%;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+
+}
+.direitaDaTela{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	right: 0%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.tituloFoda{
+	width: 300px;
+	text-align: center;
+	position: absolute;
+	top: 23%;
+}
+.titulo{
+	font-size: 50px;
+	color:  #99B898 ;
+	font-family: fantasy;
+}
+
+
+/*-------------------------BUTÃO-------------------------*/
+.fab{
+	font-size: 40px;
+	color: #A8A7A7;
+	background: #3d5b59;
+}
+
+.fas{
+	font-size: 40px;
+	color: #A8A7A7;
+	background: #3d5b59;
+}
+
+.botoes{
+	position: absolute;
+	display: flex;
+	bottom: 35%;
+	width: 500px;
+}
+
+.botoes button{
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 120px;
+	width: 200px;
+	border: none;
+	border-radius: 50%;
+	background: #3d5b59;
+	transition: 0.25s;
+}
+
+.botoes button:hover{
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 120px;
+	width: 200px;
+	border: none;
+	border-radius: 10%;
+	background: #3d5b59;
+	animatin-duration: 1s;
+	cursor: pointer;
+}
+
+
+.botoes2{
+	position: absolute;
+	display: flex;
+	bottom: 20%;
+	width: 500px;
+
+}
+.botoes2 button{
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 120px;
+	width: 200px;
+	border: none;
+	border-radius: 50%;
+	background: #3d5b59;
+	transition: 0.25s;
+}
+
+.botoes2 button:hover{
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 120px;
+	width: 200px;
+	border: none;
+	border-radius: 10%;
+	background: #3d5b59;
+	cursor: pointer;
+}
+
+/*-------------------------BARRA BUTÃO-------------------------*/
+
+.textinho{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 53%;
+}
+
+.textinho input{
+	width: 400px;
+	height: 30px;
+	text-align: left;
+	border: none;
+	font-size: 15px;
+}
+
+.textinho button{
+	color: #A8A7A7;
+	width: 100px;
+	height: 50px;
+	border: none;
+	margin-left: 10px;
+	background: #3d5b59;
+	font-size: 20px;
+	transition: 0.25s;
+}
+
+.textinho button:hover{
+	width: 100px;
+	height: 50px;
+	border: none;
+	margin-left: 10px;
+	background: #3d5b59;
+	color: white;
+}
+
+.fotoMuitoFoda img{
+	height: 865px;
+	width: 865px;
+	border-radius: 20%;
+}
+/*-------------------------ICONES DOS BUTÃO-------------------------
+
+.btnReddit{
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 120px;
+	width: 200px;
+	border: none;
+	border-radius: 50%;
+	background: #000 ;
+	transition: 0.25s;
+}
+*/
