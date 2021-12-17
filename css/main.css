@@ -1,4 +1,5 @@
 @import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 /* RELÓGIO */
         #clock {
@@ -7,7 +8,7 @@
             font-size: 69px;
             text-align: center;
             border-radius: 20px;
-            font-family: fantasy;
+            font-family: 'Roboto Mono', monospace;
             color: #99B898;
         }
 /* RELÓGIO */
@@ -57,7 +58,7 @@ body{
 .titulo{
 	font-size: 50px;
 	color:  #99B898 ;
-	font-family: fantasy;
+	font-family: 'Roboto Mono', monospace;
 }
 
 
