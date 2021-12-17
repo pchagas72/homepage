@@ -49,4 +49,5 @@ function pesquisa(pesquisa){
 function btnSearch(){
 	let oqPesquisar = document.getElementById("textinhoDaPesquisa").value;
 	pesquisa(oqPesquisar);
+	document.getElementById("textinhoDaPesquisa").value = "";
 }
