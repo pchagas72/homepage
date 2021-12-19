@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: #2A363B;
+}
+
+/* ESQUERDA DA TELA */
+
+.menuEsquerda{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 25%;
+	height: 100%;
+}
+
+.menuEsquerda_btns{
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	right: 5%;
+	bottom: 10%;
+	top: 10%;
+	display: flex;
+	justify-content: left;
+	background: #3d5b59;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.menuEsquerda_btns h1{
+	color: #A8A7A7;
+	font-size: 40px;
+}
+
+.menuEsquerda_btns button{
+	color: #A8A7A7;
+	width: 200px;
+	height: 100px;
+	border: none;
+	margin-top: 8%;
+	background: #2A363B;
+	font-size: 20px;
+	transition: 0.25s;
+}
+
+.menuEsquerda_btns button:hover{
+	color: #2A363B;
+	width: 220px;
+	height: 120px;
+	border: none;
+	margin-top: 8%;
+	background: #A8A7A7;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+/* MEIO DA TELA */
+
+.postagemRecente{
+	position: absolute;
+	left: 25%;
+	top: 0%;
+	width: 50%;
+	height: 100%;
+	background: green;
+	display: flex;
+	justify-content: center;
+	background: #3d5b59;
+}
+
+.tituloPostagem{
+
+	font-size: 75px;
+
+}
+
+.textoPostagem{
+
+	font-size: 30px;
+
+}
+
+.postagemRecente_texto{
+	background: #3d5b59;
+	height: 95%;
+	top: 5%;
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	text-align: center;
+	color: #A8A7A7;
+}
+
+.postagemRecente_imagem{
+
+}
+
+/* DIREITA DA TELA */
+
+.direitaDaTela{
+	position: absolute;
+	right: 0%;
+	width: 25%;
+	height: 100%;
+
+}
+
+.postagensAntigas_div{
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	right: 5%;
+	bottom: 10%;
+	top: 10%;
+	display: flex;
+	justify-content: left;
+	background: #3d5b59;
+	flex-direction: column;
+	text-align: center;
+}
+
+.postagensAntigas_title{
+	color: #A8A7A7;
+	font-size: 40px;
+}
+
+.postagensAntigas_lista{
+	align-self: flex-start;
+	margin-left: 5%;
+
+}
+
+.postagensAntigas_lista li{
+
+	margin-bottom: 20px;
+	font-size: 25px;
+	color: #A8A7A7;
+
+}
+
+.postagensAntigas_lista li:hover{
+	margin-bottom: 20px;
+	font-size: 25px;
+	color: #2A363B;
+
+}
+
+.postagensAntigas_lista a{
+
+	font-style: normal;
+	color: #A8A7A7;
+	text-decoration: none;
+
+}
