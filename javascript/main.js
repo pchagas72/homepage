@@ -29,7 +29,7 @@ function abrirSite(site){
             else if (hour >= 12 && hour < 19){
             	document.getElementById("horas").textContent = "Boa Tarde";
             }
-            else if (hour >= 19 && hour < 23){
+            else if (hour >= 19 && hour < 24){
             	document.getElementById("horas").textContent = "Boa Noite";
             }
             else if (hour >= 0 && hour < 5){
